@@ -12,6 +12,8 @@
         <methods>
           <include name="selectcheckboxtest"/>
           <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="createnewrqmtstest"/>
         </methods>
       </class> <!-- com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest -->
     </classes>
