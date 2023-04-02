@@ -1,7 +1,4 @@
 
-/*
- * author: Bapparaya
- */
 package com.OrangeHrmDemo.qa.Testcases;
 
 import org.testng.Assert;
