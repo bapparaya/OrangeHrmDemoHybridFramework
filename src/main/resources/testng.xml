@@ -2,11 +2,19 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="OrangeHRMDemo Application Test Automation Test Suite">
 
+	<listeners>
+		<listener
+			class-name="com.qa.ExtentReportListner.ExtentReporterNG" />
+	</listeners>
+
+
+
 	<test name="OrangeHRMDemo Test Cases">
 		<classes>
 			<class name="com.OrangeHrmDemo.qa.Testcases.LoginPageTest"></class>
 			<class name="com.OrangeHrmDemo.qa.Testcases.DashboardPageTest"></class>
-			<class name="com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest"></class>
+			<class
+				name="com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest"></class>
 
 		</classes>
 	</test>

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>OrangeHRMDemo Test Cases</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>14/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Apr 02 14:53:47 IST 2023</td>
+<td>Started on:</td><td>Wed Apr 05 07:39:51 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>98 seconds (98989 ms)</td>
+<tr><td>Total time:</td><td>521 seconds (521257 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,16 +75,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.OrangeHrmDemo.qa.Testcases.DashboardPageTest.userlabelTest()'><b>userlabelTest</b><br>Test class: com.OrangeHrmDemo.qa.Testcases.DashboardPageTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[text()=&apos;Paul Collings&apos;]&quot;}
-  (Session info: chrome=111.0.5563.111)
+<td title='com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest.selectcheckboxtest()'><b>selectcheckboxtest</b><br>Test class: com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;Sales Representative&apos;)]//parent::div//preceding-sibling::div/div/div/label/span/i&quot;}
+  (Session info: chrome=111.0.5563.147)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [65bfbe64ba5e73959ad6f96f3c29c5e5, findElement {using=xpath, value=//p[text()=&apos;Paul Collings&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\BAPPAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49869}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49869/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 65bfbe64ba5e73959ad6f96f3c29c5e5
+Command: [157f96e7211318469f4de382ffca15d6, findElement {using=xpath, value=//div[contains(text(),&apos;Sales Representative&apos;)]//parent::div//preceding-sibling::div/div/div/label/span/i}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\BAPPAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49990}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49990/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 157f96e7211318469f4de382ffca15d6
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -96,21 +96,18 @@ Session ID: 65bfbe64ba5e73959ad6f96f3c29c5e5
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
-	at com.OrangeHrmDemo.qa.Pages.Dashboard.validateuserlabel(Dashboard.java:33)
-	at com.OrangeHrmDemo.qa.Testcases.DashboardPageTest.userlabelTest(DashboardPageTest.java:35)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1316001196", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1316001196'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[text()=&apos;Paul Collings&apos;]&quot;}
-  (Session info: chrome=111.0.5563.111)
+	at com.OrangeHrmDemo.qa.Pages.Requirments.selectsalrepreqcheckbox(Requirments.java:51)
+	at com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest.selectcheckboxtest(RequirementsPageTest.java:49)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace596376940", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace596376940'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;Sales Representative&apos;)]//parent::div//preceding-sibling::div/div/div/label/span/i&quot;}
+  (Session info: chrome=111.0.5563.147)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [65bfbe64ba5e73959ad6f96f3c29c5e5, findElement {using=xpath, value=//p[text()=&apos;Paul Collings&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\BAPPAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49869}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49869/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 65bfbe64ba5e73959ad6f96f3c29c5e5
+Command: [157f96e7211318469f4de382ffca15d6, findElement {using=xpath, value=//div[contains(text(),&apos;Sales Representative&apos;)]//parent::div//preceding-sibling::div/div/div/label/span/i}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\BAPPAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49990}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49990/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 157f96e7211318469f4de382ffca15d6
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -126,11 +123,8 @@ Session ID: 65bfbe64ba5e73959ad6f96f3c29c5e5
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
-	at com.OrangeHrmDemo.qa.Pages.Dashboard.validateuserlabel(Dashboard.java:33)
-	at com.OrangeHrmDemo.qa.Testcases.DashboardPageTest.userlabelTest(DashboardPageTest.java:35)
+	at com.OrangeHrmDemo.qa.Pages.Requirments.selectsalrepreqcheckbox(Requirments.java:51)
+	at com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest.selectcheckboxtest(RequirementsPageTest.java:49)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -157,7 +151,7 @@ Session ID: 65bfbe64ba5e73959ad6f96f3c29c5e5
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
 </pre></div></td>
 <td>10</td>
-<td>com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@1a407d53</td></tr>
+<td>com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4157f54e</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -167,45 +161,75 @@ Session ID: 65bfbe64ba5e73959ad6f96f3c29c5e5
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest.candidatelabeltest()'><b>candidatelabeltest</b><br>Test class: com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4157f54e</td></tr>
+<tr>
+<td title='com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest.createnewrqmtstest()'><b>createnewrqmtstest</b><br>Test class: com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest<br>Parameters: Bappa, raya, bappa@12.com</td>
+<td></td>
+<td>5</td>
+<td>com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4157f54e</td></tr>
+<tr>
+<td title='com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest.createnewrqmtstest()'><b>createnewrqmtstest</b><br>Test class: com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest<br>Parameters: muthu, raya, muthu@12.com</td>
+<td></td>
+<td>5</td>
+<td>com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4157f54e</td></tr>
+<tr>
+<td title='com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest.createnewrqmtstest()'><b>createnewrqmtstest</b><br>Test class: com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest<br>Parameters: Ram, shantha, ram@12.com</td>
+<td></td>
+<td>5</td>
+<td>com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4157f54e</td></tr>
+<tr>
 <td title='com.OrangeHrmDemo.qa.Testcases.DashboardPageTest.dashboardlabeltest()'><b>dashboardlabeltest</b><br>Test class: com.OrangeHrmDemo.qa.Testcases.DashboardPageTest</td>
 <td></td>
-<td>0</td>
-<td>com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@1a407d53</td></tr>
+<td>1</td>
+<td>com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@327471b5</td></tr>
 <tr>
 <td title='com.OrangeHrmDemo.qa.Testcases.DashboardPageTest.leavetest()'><b>leavetest</b><br>Test class: com.OrangeHrmDemo.qa.Testcases.DashboardPageTest</td>
 <td></td>
 <td>3</td>
-<td>com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@1a407d53</td></tr>
+<td>com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@327471b5</td></tr>
 <tr>
 <td title='com.OrangeHrmDemo.qa.Testcases.LoginPageTest.loginpagetitlelogotest()'><b>loginpagetitlelogotest</b><br>Test class: com.OrangeHrmDemo.qa.Testcases.LoginPageTest</td>
 <td></td>
-<td>0</td>
-<td>com.OrangeHrmDemo.qa.Testcases.LoginPageTest@3498ed</td></tr>
+<td>7</td>
+<td>com.OrangeHrmDemo.qa.Testcases.LoginPageTest@3567135c</td></tr>
 <tr>
 <td title='com.OrangeHrmDemo.qa.Testcases.LoginPageTest.loginpagetitletest()'><b>loginpagetitletest</b><br>Test class: com.OrangeHrmDemo.qa.Testcases.LoginPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.OrangeHrmDemo.qa.Testcases.LoginPageTest@3498ed</td></tr>
+<td>com.OrangeHrmDemo.qa.Testcases.LoginPageTest@3567135c</td></tr>
 <tr>
 <td title='com.OrangeHrmDemo.qa.Testcases.LoginPageTest.logintest()'><b>logintest</b><br>Test class: com.OrangeHrmDemo.qa.Testcases.LoginPageTest</td>
 <td></td>
-<td>1</td>
-<td>com.OrangeHrmDemo.qa.Testcases.LoginPageTest@3498ed</td></tr>
+<td>5</td>
+<td>com.OrangeHrmDemo.qa.Testcases.LoginPageTest@3567135c</td></tr>
 <tr>
 <td title='com.OrangeHrmDemo.qa.Testcases.DashboardPageTest.myinfotest()'><b>myinfotest</b><br>Test class: com.OrangeHrmDemo.qa.Testcases.DashboardPageTest</td>
 <td></td>
 <td>3</td>
-<td>com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@1a407d53</td></tr>
+<td>com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@327471b5</td></tr>
 <tr>
 <td title='com.OrangeHrmDemo.qa.Testcases.LoginPageTest.orangehrmlogotest()'><b>orangehrmlogotest</b><br>Test class: com.OrangeHrmDemo.qa.Testcases.LoginPageTest</td>
 <td></td>
-<td>0</td>
-<td>com.OrangeHrmDemo.qa.Testcases.LoginPageTest@3498ed</td></tr>
+<td>2</td>
+<td>com.OrangeHrmDemo.qa.Testcases.LoginPageTest@3567135c</td></tr>
+<tr>
+<td title='com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest.requirementslabletest()'><b>requirementslabletest</b><br>Test class: com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4157f54e</td></tr>
 <tr>
 <td title='com.OrangeHrmDemo.qa.Testcases.DashboardPageTest.requirmentstest()'><b>requirmentstest</b><br>Test class: com.OrangeHrmDemo.qa.Testcases.DashboardPageTest</td>
 <td></td>
-<td>3</td>
-<td>com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@1a407d53</td></tr>
+<td>4</td>
+<td>com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@327471b5</td></tr>
+<tr>
+<td title='com.OrangeHrmDemo.qa.Testcases.DashboardPageTest.userlabelTest()'><b>userlabelTest</b><br>Test class: com.OrangeHrmDemo.qa.Testcases.DashboardPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@327471b5</td></tr>
 </table><p>
 </body>
 </html>
