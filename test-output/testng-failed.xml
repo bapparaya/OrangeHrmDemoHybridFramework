@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [OrangeHRMDemo Application Test Automation Test Suite]">
-  <listeners>
-    <listener class-name="com.qa.ExtentReportListner.ExtentReporterNG"/>
-  </listeners>
-  <test name="OrangeHRMDemo Test Cases">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
     <classes>
-      <class name="com.OrangeHrmDemo.qa.Testcases.LoginPageTest"/>
-      <class name="com.OrangeHrmDemo.qa.Testcases.DashboardPageTest"/>
       <class name="com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest"/>
     </classes>
-  </test> <!-- OrangeHRMDemo Test Cases -->
-  <test name="OrangeHRMDemo Test Cases(failed)">
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
     <classes>
       <class name="com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest">
         <methods>
@@ -20,18 +15,6 @@
           <include name="teardown"/>
         </methods>
       </class> <!-- com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest -->
-      <class name="com.OrangeHrmDemo.qa.Testcases.LoginPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.OrangeHrmDemo.qa.Testcases.LoginPageTest -->
-      <class name="com.OrangeHrmDemo.qa.Testcases.DashboardPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.OrangeHrmDemo.qa.Testcases.DashboardPageTest -->
     </classes>
-  </test> <!-- OrangeHRMDemo Test Cases(failed) -->
-</suite> <!-- Failed suite [OrangeHRMDemo Application Test Automation Test Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
