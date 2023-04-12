@@ -1,119 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="15" passed="14">
+<testng-results ignored="0" total="15" passed="13" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="OrangeHRMDemo Application Test Automation Test Suite" duration-ms="521257" started-at="2023-04-05T02:09:51Z" finished-at="2023-04-05T02:18:33Z">
+  <suite started-at="2023-04-06T16:54:59 IST" name="OrangeHRMDemo Application Test Automation Test Suite" finished-at="2023-04-06T16:59:57 IST" duration-ms="298093">
     <groups>
     </groups>
-    <test name="OrangeHRMDemo Test Cases" duration-ms="521257" started-at="2023-04-05T02:09:51Z" finished-at="2023-04-05T02:18:33Z">
+    <test started-at="2023-04-06T16:54:59 IST" name="OrangeHRMDemo Test Cases" finished-at="2023-04-06T16:59:57 IST" duration-ms="298093">
       <class name="com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4157f54e]" name="setUp" is-config="true" duration-ms="36836" started-at="2023-04-05T07:44:29Z" finished-at="2023-04-05T07:45:06Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4efac082]" started-at="2023-04-06T16:58:05 IST" name="setUp" finished-at="2023-04-06T16:58:14 IST" duration-ms="9566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="requirementslabletest()[pri:1, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4157f54e]" name="requirementslabletest" duration-ms="1289" started-at="2023-04-05T07:45:06Z" finished-at="2023-04-05T07:45:07Z">
+        <test-method signature="requirementslabletest()[pri:1, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4efac082]" started-at="2023-04-06T16:58:14 IST" name="requirementslabletest" finished-at="2023-04-06T16:58:15 IST" duration-ms="605" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- requirementslabletest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4157f54e]" name="teardown" is-config="true" duration-ms="15677" started-at="2023-04-05T07:45:07Z" finished-at="2023-04-05T07:45:23Z">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4efac082]" started-at="2023-04-06T16:58:15 IST" name="teardown" finished-at="2023-04-06T16:58:19 IST" duration-ms="4013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4157f54e]" name="setUp" is-config="true" duration-ms="26930" started-at="2023-04-05T07:45:23Z" finished-at="2023-04-05T07:45:50Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4efac082]" started-at="2023-04-06T16:58:19 IST" name="setUp" finished-at="2023-04-06T16:58:45 IST" duration-ms="26020" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="candidatelabeltest()[pri:2, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4157f54e]" name="candidatelabeltest" duration-ms="1045" started-at="2023-04-05T07:45:50Z" finished-at="2023-04-05T07:45:51Z">
+        <test-method signature="candidatelabeltest()[pri:2, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4efac082]" started-at="2023-04-06T16:58:45 IST" name="candidatelabeltest" finished-at="2023-04-06T16:58:46 IST" duration-ms="574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- candidatelabeltest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4157f54e]" name="teardown" is-config="true" duration-ms="11244" started-at="2023-04-05T07:45:51Z" finished-at="2023-04-05T07:46:02Z">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4efac082]" started-at="2023-04-06T16:58:46 IST" name="teardown" finished-at="2023-04-06T16:58:46 IST" duration-ms="312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4157f54e]" name="setUp" is-config="true" duration-ms="20650" started-at="2023-04-05T07:46:02Z" finished-at="2023-04-05T07:46:23Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4efac082]" started-at="2023-04-06T16:58:46 IST" name="setUp" finished-at="2023-04-06T16:59:02 IST" duration-ms="16047" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="selectcheckboxtest()[pri:3, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4157f54e]" name="selectcheckboxtest" duration-ms="10173" started-at="2023-04-05T07:46:23Z" finished-at="2023-04-05T07:46:33Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="selectcheckboxtest()[pri:3, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4efac082]" started-at="2023-04-06T16:59:02 IST" name="selectcheckboxtest" finished-at="2023-04-06T16:59:03 IST" duration-ms="1013" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Sales Representative')]//parent::div//preceding-sibling::div/div/div/label/span/i"}
-  (Session info: chrome=111.0.5563.147)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.3', revision: 'e5e76298c3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [157f96e7211318469f4de382ffca15d6, findElement {using=xpath, value=//div[contains(text(),'Sales Representative')]//parent::div//preceding-sibling::div/div/div/label/span/i}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\BAPPAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49990}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49990/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 157f96e7211318469f4de382ffca15d6]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Sales Representative')]//parent::div//preceding-sibling::div/div/div/label/span/i"}
-  (Session info: chrome=111.0.5563.147)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.3', revision: 'e5e76298c3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [157f96e7211318469f4de382ffca15d6, findElement {using=xpath, value=//div[contains(text(),'Sales Representative')]//parent::div//preceding-sibling::div/div/div/label/span/i}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\BAPPAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49990}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49990/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 157f96e7211318469f4de382ffca15d6
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.OrangeHrmDemo.qa.Pages.Requirments.selectsalrepreqcheckbox(Requirments.java:51)
-	at com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest.selectcheckboxtest(RequirementsPageTest.java:49)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest.selectcheckboxtest(RequirementsPageTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectcheckboxtest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4157f54e]" name="teardown" is-config="true" duration-ms="2023" started-at="2023-04-05T07:46:33Z" finished-at="2023-04-05T07:46:35Z">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4efac082]" started-at="2023-04-06T16:59:03 IST" name="teardown" finished-at="2023-04-06T16:59:03 IST" duration-ms="608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4157f54e]" name="setUp" is-config="true" duration-ms="20789" started-at="2023-04-05T07:46:39Z" finished-at="2023-04-05T07:46:59Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4efac082]" started-at="2023-04-06T16:59:05 IST" name="setUp" finished-at="2023-04-06T16:59:16 IST" duration-ms="11086" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createnewrqmtstest(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4157f54e]" name="createnewrqmtstest" duration-ms="5039" started-at="2023-04-05T07:46:59Z" data-provider="getTestorangehrmData" finished-at="2023-04-05T07:47:04Z">
+        <test-method signature="createnewrqmtstest(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4efac082]" started-at="2023-04-06T16:59:16 IST" name="createnewrqmtstest" data-provider="getTestorangehrmData" finished-at="2023-04-06T16:59:19 IST" duration-ms="3028" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -134,15 +110,15 @@ Session ID: 157f96e7211318469f4de382ffca15d6
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createnewrqmtstest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4157f54e]" name="teardown" is-config="true" duration-ms="2921" started-at="2023-04-05T07:47:04Z" finished-at="2023-04-05T07:47:07Z">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4efac082]" started-at="2023-04-06T16:59:19 IST" name="teardown" finished-at="2023-04-06T16:59:20 IST" duration-ms="1101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4157f54e]" name="setUp" is-config="true" duration-ms="30896" started-at="2023-04-05T07:47:07Z" finished-at="2023-04-05T07:47:38Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4efac082]" started-at="2023-04-06T16:59:20 IST" name="setUp" finished-at="2023-04-06T16:59:34 IST" duration-ms="13187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createnewrqmtstest(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4157f54e]" name="createnewrqmtstest" duration-ms="5398" started-at="2023-04-05T07:47:38Z" data-provider="getTestorangehrmData" finished-at="2023-04-05T07:47:44Z">
+        <test-method signature="createnewrqmtstest(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4efac082]" started-at="2023-04-06T16:59:34 IST" name="createnewrqmtstest" data-provider="getTestorangehrmData" finished-at="2023-04-06T16:59:35 IST" duration-ms="1963" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -163,15 +139,15 @@ Session ID: 157f96e7211318469f4de382ffca15d6
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createnewrqmtstest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4157f54e]" name="teardown" is-config="true" duration-ms="15619" started-at="2023-04-05T07:47:44Z" finished-at="2023-04-05T07:47:59Z">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4efac082]" started-at="2023-04-06T16:59:35 IST" name="teardown" finished-at="2023-04-06T16:59:36 IST" duration-ms="508" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4157f54e]" name="setUp" is-config="true" duration-ms="24971" started-at="2023-04-05T07:47:59Z" finished-at="2023-04-05T07:48:24Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4efac082]" started-at="2023-04-06T16:59:36 IST" name="setUp" finished-at="2023-04-06T16:59:55 IST" duration-ms="18786" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createnewrqmtstest(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4157f54e]" name="createnewrqmtstest" duration-ms="5571" started-at="2023-04-05T07:48:24Z" data-provider="getTestorangehrmData" finished-at="2023-04-05T07:48:30Z">
+        <test-method signature="createnewrqmtstest(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4efac082]" started-at="2023-04-06T16:59:55 IST" name="createnewrqmtstest" data-provider="getTestorangehrmData" finished-at="2023-04-06T16:59:57 IST" duration-ms="2123" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -192,119 +168,193 @@ Session ID: 157f96e7211318469f4de382ffca15d6
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createnewrqmtstest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4157f54e]" name="teardown" is-config="true" duration-ms="2736" started-at="2023-04-05T07:48:30Z" finished-at="2023-04-05T07:48:33Z">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest@4efac082]" started-at="2023-04-06T16:59:57 IST" name="teardown" finished-at="2023-04-06T16:59:57 IST" duration-ms="524" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest -->
       <class name="com.OrangeHrmDemo.qa.Testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.LoginPageTest@3567135c]" name="setUp" is-config="true" duration-ms="42169" started-at="2023-04-05T07:39:51Z" finished-at="2023-04-05T07:40:34Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.LoginPageTest@bae7dc0]" started-at="2023-04-06T16:54:59 IST" name="setUp" finished-at="2023-04-06T16:55:45 IST" duration-ms="45735" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginpagetitletest()[pri:1, instance:com.OrangeHrmDemo.qa.Testcases.LoginPageTest@3567135c]" name="loginpagetitletest" duration-ms="169" started-at="2023-04-05T07:40:34Z" finished-at="2023-04-05T07:40:34Z">
+        <test-method signature="loginpagetitletest()[pri:1, instance:com.OrangeHrmDemo.qa.Testcases.LoginPageTest@bae7dc0]" started-at="2023-04-06T16:55:45 IST" name="loginpagetitletest" finished-at="2023-04-06T16:55:45 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpagetitletest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.LoginPageTest@3567135c]" name="tearDown" is-config="true" duration-ms="7484" started-at="2023-04-05T07:40:34Z" finished-at="2023-04-05T07:40:41Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.LoginPageTest@bae7dc0]" started-at="2023-04-06T16:55:45 IST" name="tearDown" finished-at="2023-04-06T16:55:47 IST" duration-ms="1915" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.LoginPageTest@3567135c]" name="setUp" is-config="true" duration-ms="15257" started-at="2023-04-05T07:40:41Z" finished-at="2023-04-05T07:40:56Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.LoginPageTest@bae7dc0]" started-at="2023-04-06T16:55:47 IST" name="setUp" finished-at="2023-04-06T16:55:59 IST" duration-ms="12333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="orangehrmlogotest()[pri:2, instance:com.OrangeHrmDemo.qa.Testcases.LoginPageTest@3567135c]" name="orangehrmlogotest" duration-ms="2750" started-at="2023-04-05T07:40:56Z" finished-at="2023-04-05T07:40:59Z">
+        <test-method signature="orangehrmlogotest()[pri:2, instance:com.OrangeHrmDemo.qa.Testcases.LoginPageTest@bae7dc0]" started-at="2023-04-06T16:55:59 IST" name="orangehrmlogotest" finished-at="2023-04-06T16:56:01 IST" duration-ms="1216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orangehrmlogotest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.LoginPageTest@3567135c]" name="tearDown" is-config="true" duration-ms="4232" started-at="2023-04-05T07:40:59Z" finished-at="2023-04-05T07:41:03Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.LoginPageTest@bae7dc0]" started-at="2023-04-06T16:56:01 IST" name="tearDown" finished-at="2023-04-06T16:56:03 IST" duration-ms="2077" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.LoginPageTest@3567135c]" name="setUp" is-config="true" duration-ms="12983" started-at="2023-04-05T07:41:03Z" finished-at="2023-04-05T07:41:16Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.LoginPageTest@bae7dc0]" started-at="2023-04-06T16:56:03 IST" name="setUp" finished-at="2023-04-06T16:56:12 IST" duration-ms="8860" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginpagetitlelogotest()[pri:3, instance:com.OrangeHrmDemo.qa.Testcases.LoginPageTest@3567135c]" name="loginpagetitlelogotest" duration-ms="7880" started-at="2023-04-05T07:41:16Z" finished-at="2023-04-05T07:41:24Z">
+        <test-method signature="loginpagetitlelogotest()[pri:3, instance:com.OrangeHrmDemo.qa.Testcases.LoginPageTest@bae7dc0]" started-at="2023-04-06T16:56:12 IST" name="loginpagetitlelogotest" finished-at="2023-04-06T16:56:12 IST" duration-ms="383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpagetitlelogotest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.LoginPageTest@3567135c]" name="tearDown" is-config="true" duration-ms="3088" started-at="2023-04-05T07:41:24Z" finished-at="2023-04-05T07:41:27Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.LoginPageTest@bae7dc0]" started-at="2023-04-06T16:56:12 IST" name="tearDown" finished-at="2023-04-06T16:56:14 IST" duration-ms="2105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.LoginPageTest@3567135c]" name="setUp" is-config="true" duration-ms="20183" started-at="2023-04-05T07:41:27Z" finished-at="2023-04-05T07:41:48Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.LoginPageTest@bae7dc0]" started-at="2023-04-06T16:56:14 IST" name="setUp" finished-at="2023-04-06T16:56:20 IST" duration-ms="6291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="logintest()[pri:4, instance:com.OrangeHrmDemo.qa.Testcases.LoginPageTest@3567135c]" name="logintest" duration-ms="5681" started-at="2023-04-05T07:41:48Z" finished-at="2023-04-05T07:41:53Z">
+        <test-method signature="logintest()[pri:4, instance:com.OrangeHrmDemo.qa.Testcases.LoginPageTest@bae7dc0]" started-at="2023-04-06T16:56:20 IST" name="logintest" finished-at="2023-04-06T16:56:23 IST" duration-ms="2937" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.LoginPageTest@3567135c]" name="tearDown" is-config="true" duration-ms="2408" started-at="2023-04-05T07:41:53Z" finished-at="2023-04-05T07:41:56Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.LoginPageTest@bae7dc0]" started-at="2023-04-06T16:56:23 IST" name="tearDown" finished-at="2023-04-06T16:56:25 IST" duration-ms="1926" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.OrangeHrmDemo.qa.Testcases.LoginPageTest -->
       <class name="com.OrangeHrmDemo.qa.Testcases.DashboardPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@327471b5]" name="setUp" is-config="true" duration-ms="40548" started-at="2023-04-05T07:41:56Z" finished-at="2023-04-05T07:42:36Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@59505b48]" started-at="2023-04-06T16:56:25 IST" name="setUp" finished-at="2023-04-06T16:56:40 IST" duration-ms="15080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="userlabelTest()[pri:1, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@327471b5]" name="userlabelTest" duration-ms="1075" started-at="2023-04-05T07:42:36Z" finished-at="2023-04-05T07:42:37Z">
+        <test-method signature="userlabelTest()[pri:1, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@59505b48]" started-at="2023-04-06T16:56:40 IST" name="userlabelTest" finished-at="2023-04-06T16:56:51 IST" duration-ms="10443" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Paul Collings']"}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1bcbd2ab3dbf3e411997f1bd9872fa63, findElement {using=xpath, value=//p[text()='Paul Collings']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\BAPPAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51835}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51835/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1bcbd2ab3dbf3e411997f1bd9872fa63]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Paul Collings']"}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1bcbd2ab3dbf3e411997f1bd9872fa63, findElement {using=xpath, value=//p[text()='Paul Collings']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\BAPPAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51835}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51835/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1bcbd2ab3dbf3e411997f1bd9872fa63
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
+at com.OrangeHrmDemo.qa.Pages.Dashboard.validateuserlabel(Dashboard.java:33)
+at com.OrangeHrmDemo.qa.Testcases.DashboardPageTest.userlabelTest(DashboardPageTest.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userlabelTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@327471b5]" name="tearDown" is-config="true" duration-ms="2488" started-at="2023-04-05T07:42:37Z" finished-at="2023-04-05T07:42:40Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@59505b48]" started-at="2023-04-06T16:56:51 IST" name="tearDown" finished-at="2023-04-06T16:56:53 IST" duration-ms="1975" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@327471b5]" name="setUp" is-config="true" duration-ms="21728" started-at="2023-04-05T07:42:40Z" finished-at="2023-04-05T07:43:02Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@59505b48]" started-at="2023-04-06T16:56:53 IST" name="setUp" finished-at="2023-04-06T16:57:04 IST" duration-ms="10952" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="dashboardlabeltest()[pri:2, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@327471b5]" name="dashboardlabeltest" duration-ms="1366" started-at="2023-04-05T07:43:02Z" finished-at="2023-04-05T07:43:03Z">
+        <test-method signature="dashboardlabeltest()[pri:2, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@59505b48]" started-at="2023-04-06T16:57:04 IST" name="dashboardlabeltest" finished-at="2023-04-06T16:57:04 IST" duration-ms="398" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashboardlabeltest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@327471b5]" name="tearDown" is-config="true" duration-ms="2587" started-at="2023-04-05T07:43:03Z" finished-at="2023-04-05T07:43:06Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@59505b48]" started-at="2023-04-06T16:57:04 IST" name="tearDown" finished-at="2023-04-06T16:57:05 IST" duration-ms="518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@327471b5]" name="setUp" is-config="true" duration-ms="20043" started-at="2023-04-05T07:43:06Z" finished-at="2023-04-05T07:43:26Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@59505b48]" started-at="2023-04-06T16:57:05 IST" name="setUp" finished-at="2023-04-06T16:57:13 IST" duration-ms="8007" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="myinfotest()[pri:3, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@327471b5]" name="myinfotest" duration-ms="3838" started-at="2023-04-05T07:43:26Z" finished-at="2023-04-05T07:43:29Z">
+        <test-method signature="myinfotest()[pri:3, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@59505b48]" started-at="2023-04-06T16:57:13 IST" name="myinfotest" finished-at="2023-04-06T16:57:15 IST" duration-ms="2138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myinfotest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@327471b5]" name="tearDown" is-config="true" duration-ms="3889" started-at="2023-04-05T07:43:29Z" finished-at="2023-04-05T07:43:33Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@59505b48]" started-at="2023-04-06T16:57:15 IST" name="tearDown" finished-at="2023-04-06T16:57:15 IST" duration-ms="305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@327471b5]" name="setUp" is-config="true" duration-ms="22725" started-at="2023-04-05T07:43:33Z" finished-at="2023-04-05T07:43:56Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@59505b48]" started-at="2023-04-06T16:57:15 IST" name="setUp" finished-at="2023-04-06T16:57:43 IST" duration-ms="28124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="leavetest()[pri:4, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@327471b5]" name="leavetest" duration-ms="3250" started-at="2023-04-05T07:43:56Z" finished-at="2023-04-05T07:43:59Z">
+        <test-method signature="leavetest()[pri:4, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@59505b48]" started-at="2023-04-06T16:57:43 IST" name="leavetest" finished-at="2023-04-06T16:57:48 IST" duration-ms="4392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- leavetest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@327471b5]" name="tearDown" is-config="true" duration-ms="2826" started-at="2023-04-05T07:43:59Z" finished-at="2023-04-05T07:44:02Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@59505b48]" started-at="2023-04-06T16:57:48 IST" name="tearDown" finished-at="2023-04-06T16:57:49 IST" duration-ms="1513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@327471b5]" name="setUp" is-config="true" duration-ms="21054" started-at="2023-04-05T07:44:02Z" finished-at="2023-04-05T07:44:23Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@59505b48]" started-at="2023-04-06T16:57:49 IST" name="setUp" finished-at="2023-04-06T16:58:01 IST" duration-ms="11651" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="requirmentstest()[pri:5, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@327471b5]" name="requirmentstest" duration-ms="4014" started-at="2023-04-05T07:44:23Z" finished-at="2023-04-05T07:44:27Z">
+        <test-method signature="requirmentstest()[pri:5, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@59505b48]" started-at="2023-04-06T16:58:01 IST" name="requirmentstest" finished-at="2023-04-06T16:58:04 IST" duration-ms="3420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- requirmentstest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@327471b5]" name="tearDown" is-config="true" duration-ms="1932" started-at="2023-04-05T07:44:27Z" finished-at="2023-04-05T07:44:29Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OrangeHrmDemo.qa.Testcases.DashboardPageTest@59505b48]" started-at="2023-04-06T16:58:04 IST" name="tearDown" finished-at="2023-04-06T16:58:05 IST" duration-ms="609" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

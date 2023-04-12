@@ -5,8 +5,9 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
-    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -23,21 +24,22 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
-          <img class="collapse-all-icon" src="collapseall.gif">
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite">
+            <a href="#" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" class="navigator-link">
               <span class="suite-name border-failed">OrangeHRMDemo Application Test Automation Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
@@ -48,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-OrangeHRMDemo_Application_Test_Automation_Test_Suite">
-                    <span>E:\B1java\OrangeHRMDemo\src\main\resources\testng.xml</span>
+                  <a href="#" panel-name="test-xml-OrangeHRMDemo_Application_Test_Automation_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\bapparayar\git\OrangeHrmDemoHybridFramework\src\main\resources\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-OrangeHRMDemo_Application_Test_Automation_Test_Suite">
+                  <a href="#" panel-name="testlist-OrangeHRMDemo_Application_Test_Automation_Test_Suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-OrangeHRMDemo_Application_Test_Automation_Test_Suite">
+                  <a href="#" panel-name="group-OrangeHRMDemo_Application_Test_Automation_Test_Suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-OrangeHRMDemo_Application_Test_Automation_Test_Suite">
+                  <a href="#" panel-name="times-OrangeHRMDemo_Application_Test_Automation_Test_Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-OrangeHRMDemo_Application_Test_Automation_Test_Suite">
+                  <a href="#" panel-name="reporter-OrangeHRMDemo_Application_Test_Automation_Test_Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-OrangeHRMDemo_Application_Test_Automation_Test_Suite">
+                  <a href="#" panel-name="ignored-methods-OrangeHRMDemo_Application_Test_Automation_Test_Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-OrangeHRMDemo_Application_Test_Automation_Test_Suite">
+                  <a href="#" panel-name="chronological-OrangeHRMDemo_Application_Test_Automation_Test_Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">15 methods, 1 failed,   14 passed</span>
+                    <span class="method-stats">15 methods, 2 failed,   13 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,8 +103,13 @@
                     </span>
                     <div class="method-list-content failed suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest" hash-for-method="selectcheckboxtest">selectcheckboxtest</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest" class="method navigator-link" hash-for-method="selectcheckboxtest">selectcheckboxtest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.DashboardPageTest" class="method navigator-link" hash-for-method="userlabelTest">userlabelTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite -->
@@ -115,73 +122,68 @@
                     </span>
                     <div class="method-list-content passed suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest" hash-for-method="candidatelabeltest">candidatelabeltest</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest" class="method navigator-link" hash-for-method="candidatelabeltest">candidatelabeltest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest" hash-for-method="createnewrqmtstest(Ram, shantha, ram@12.com)">createnewrqmtstest(Ram, shantha, ram@12.com)</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest" class="method navigator-link" hash-for-method="createnewrqmtstest(Ram, shantha, ram@12.com)">createnewrqmtstest(Ram, shantha, ram@12.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest" hash-for-method="createnewrqmtstest(muthu, raya, muthu@12.com)">createnewrqmtstest(muthu, raya, muthu@12.com)</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest" class="method navigator-link" hash-for-method="createnewrqmtstest(Bappa, raya, bappa@12.com)">createnewrqmtstest(Bappa, raya, bappa@12.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest" hash-for-method="createnewrqmtstest(Bappa, raya, bappa@12.com)">createnewrqmtstest(Bappa, raya, bappa@12.com)</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest" class="method navigator-link" hash-for-method="createnewrqmtstest(muthu, raya, muthu@12.com)">createnewrqmtstest(muthu, raya, muthu@12.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.DashboardPageTest" hash-for-method="dashboardlabeltest">dashboardlabeltest</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.DashboardPageTest" class="method navigator-link" hash-for-method="dashboardlabeltest">dashboardlabeltest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.DashboardPageTest" hash-for-method="leavetest">leavetest</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.DashboardPageTest" class="method navigator-link" hash-for-method="leavetest">leavetest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.LoginPageTest" hash-for-method="loginpagetitlelogotest">loginpagetitlelogotest</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginpagetitlelogotest">loginpagetitlelogotest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.LoginPageTest" hash-for-method="loginpagetitletest">loginpagetitletest</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginpagetitletest">loginpagetitletest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.LoginPageTest" hash-for-method="logintest">logintest</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.LoginPageTest" class="method navigator-link" hash-for-method="logintest">logintest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.DashboardPageTest" hash-for-method="myinfotest">myinfotest</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.DashboardPageTest" class="method navigator-link" hash-for-method="myinfotest">myinfotest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.LoginPageTest" hash-for-method="orangehrmlogotest">orangehrmlogotest</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.LoginPageTest" class="method navigator-link" hash-for-method="orangehrmlogotest">orangehrmlogotest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest" hash-for-method="requirementslabletest">requirementslabletest</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest" class="method navigator-link" hash-for-method="requirementslabletest">requirementslabletest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.DashboardPageTest" hash-for-method="requirmentstest">requirmentstest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.DashboardPageTest" hash-for-method="userlabelTest">userlabelTest</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite" title="com.OrangeHrmDemo.qa.Testcases.DashboardPageTest" class="method navigator-link" hash-for-method="requirmentstest">requirmentstest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite -->
@@ -207,15 +209,35 @@
                   <a name="selectcheckboxtest">
                   </a> <!-- selectcheckboxtest -->
                   <span class="method-name">selectcheckboxtest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;Sales Representative&apos;)]//parent::div//preceding-sibling::div/div/div/label/span/i&quot;}
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest.selectcheckboxtest(RequirementsPageTest.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite-class-failed -->
+          <div class="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.OrangeHrmDemo.qa.Testcases.DashboardPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userlabelTest">
+                  </a> <!-- userlabelTest -->
+                  <span class="method-name">userlabelTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[text()=&apos;Paul Collings&apos;]&quot;}
   (Session info: chrome=111.0.5563.147)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [157f96e7211318469f4de382ffca15d6, findElement {using=xpath, value=//div[contains(text(),&apos;Sales Representative&apos;)]//parent::div//preceding-sibling::div/div/div/label/span/i}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\BAPPAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49990}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49990/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 157f96e7211318469f4de382ffca15d6
+Command: [1bcbd2ab3dbf3e411997f1bd9872fa63, findElement {using=xpath, value=//p[text()=&apos;Paul Collings&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\BAPPAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51835}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51835/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1bcbd2ab3dbf3e411997f1bd9872fa63
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -227,60 +249,18 @@ Session ID: 157f96e7211318469f4de382ffca15d6
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.OrangeHrmDemo.qa.Pages.Requirments.selectsalrepreqcheckbox(Requirments.java:51)
-	at com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest.selectcheckboxtest(RequirementsPageTest.java:49)
-... Removed 28 stack frames
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
+	at com.OrangeHrmDemo.qa.Pages.Dashboard.validateuserlabel(Dashboard.java:33)
+	at com.OrangeHrmDemo.qa.Testcases.DashboardPageTest.userlabelTest(DashboardPageTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite-class-failed -->
-          <div class="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="candidatelabeltest">
-                  </a> <!-- candidatelabeltest -->
-                  <span class="method-name">candidatelabeltest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="createnewrqmtstest(Ram, shantha, ram@12.com)">
-                  </a> <!-- createnewrqmtstest(Ram, shantha, ram@12.com) -->
-                  <span class="method-name">createnewrqmtstest</span>
-                  <span class="parameters">(Ram, shantha, ram@12.com)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="createnewrqmtstest(muthu, raya, muthu@12.com)">
-                  </a> <!-- createnewrqmtstest(muthu, raya, muthu@12.com) -->
-                  <span class="method-name">createnewrqmtstest</span>
-                  <span class="parameters">(muthu, raya, muthu@12.com)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="createnewrqmtstest(Bappa, raya, bappa@12.com)">
-                  </a> <!-- createnewrqmtstest(Bappa, raya, bappa@12.com) -->
-                  <span class="method-name">createnewrqmtstest</span>
-                  <span class="parameters">(Bappa, raya, bappa@12.com)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="requirementslabletest">
-                  </a> <!-- requirementslabletest -->
-                  <span class="method-name">requirementslabletest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite-class-passed -->
           <div class="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -320,6 +300,52 @@ Session ID: 157f96e7211318469f4de382ffca15d6
           <div class="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="candidatelabeltest">
+                  </a> <!-- candidatelabeltest -->
+                  <span class="method-name">candidatelabeltest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createnewrqmtstest(Ram, shantha, ram@12.com)">
+                  </a> <!-- createnewrqmtstest(Ram, shantha, ram@12.com) -->
+                  <span class="method-name">createnewrqmtstest</span>
+                  <span class="parameters">(Ram, shantha, ram@12.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createnewrqmtstest(Bappa, raya, bappa@12.com)">
+                  </a> <!-- createnewrqmtstest(Bappa, raya, bappa@12.com) -->
+                  <span class="method-name">createnewrqmtstest</span>
+                  <span class="parameters">(Bappa, raya, bappa@12.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createnewrqmtstest(muthu, raya, muthu@12.com)">
+                  </a> <!-- createnewrqmtstest(muthu, raya, muthu@12.com) -->
+                  <span class="method-name">createnewrqmtstest</span>
+                  <span class="parameters">(muthu, raya, muthu@12.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="requirementslabletest">
+                  </a> <!-- requirementslabletest -->
+                  <span class="method-name">requirementslabletest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite-class-passed -->
+          <div class="suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.OrangeHrmDemo.qa.Testcases.DashboardPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -351,29 +377,22 @@ Session ID: 157f96e7211318469f4de382ffca15d6
                   <span class="method-name">requirmentstest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="userlabelTest">
-                  </a> <!-- userlabelTest -->
-                  <span class="method-name">userlabelTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-OrangeHRMDemo_Application_Test_Automation_Test_Suite-class-passed -->
         </div> <!-- panel OrangeHRMDemo_Application_Test_Automation_Test_Suite -->
         <div panel-name="test-xml-OrangeHRMDemo_Application_Test_Automation_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">E:\B1java\OrangeHRMDemo\src\main\resources\testng.xml</span>
+            <span class="header-content">C:\Users\bapparayar\git\OrangeHrmDemoHybridFramework\src\main\resources\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;OrangeHRMDemo Application Test Automation Test Suite&quot;&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;OrangeHRMDemo Application Test Automation Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.qa.ExtentReportListner.ExtentReporterNG&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test name=&quot;OrangeHRMDemo Test Cases&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;OrangeHRMDemo Test Cases&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.OrangeHrmDemo.qa.Testcases.LoginPageTest&quot;/&gt;
       &lt;class name=&quot;com.OrangeHrmDemo.qa.Testcases.DashboardPageTest&quot;/&gt;
@@ -419,70 +438,70 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(15);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'selectcheckboxtest')
-data.setCell(0, 2, 'com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest')
-data.setCell(0, 3, 10173);
+data.setCell(0, 1, 'userlabelTest')
+data.setCell(0, 2, 'com.OrangeHrmDemo.qa.Testcases.DashboardPageTest')
+data.setCell(0, 3, 10443);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginpagetitlelogotest')
-data.setCell(1, 2, 'com.OrangeHrmDemo.qa.Testcases.LoginPageTest')
-data.setCell(1, 3, 7880);
+data.setCell(1, 1, 'leavetest')
+data.setCell(1, 2, 'com.OrangeHrmDemo.qa.Testcases.DashboardPageTest')
+data.setCell(1, 3, 4392);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'logintest')
-data.setCell(2, 2, 'com.OrangeHrmDemo.qa.Testcases.LoginPageTest')
-data.setCell(2, 3, 5681);
+data.setCell(2, 1, 'requirmentstest')
+data.setCell(2, 2, 'com.OrangeHrmDemo.qa.Testcases.DashboardPageTest')
+data.setCell(2, 3, 3420);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'createnewrqmtstest')
 data.setCell(3, 2, 'com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest')
-data.setCell(3, 3, 5571);
+data.setCell(3, 3, 3028);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'createnewrqmtstest')
-data.setCell(4, 2, 'com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest')
-data.setCell(4, 3, 5398);
+data.setCell(4, 1, 'logintest')
+data.setCell(4, 2, 'com.OrangeHrmDemo.qa.Testcases.LoginPageTest')
+data.setCell(4, 3, 2937);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'createnewrqmtstest')
-data.setCell(5, 2, 'com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest')
-data.setCell(5, 3, 5039);
+data.setCell(5, 1, 'myinfotest')
+data.setCell(5, 2, 'com.OrangeHrmDemo.qa.Testcases.DashboardPageTest')
+data.setCell(5, 3, 2138);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'requirmentstest')
-data.setCell(6, 2, 'com.OrangeHrmDemo.qa.Testcases.DashboardPageTest')
-data.setCell(6, 3, 4014);
+data.setCell(6, 1, 'createnewrqmtstest')
+data.setCell(6, 2, 'com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest')
+data.setCell(6, 3, 2123);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'myinfotest')
-data.setCell(7, 2, 'com.OrangeHrmDemo.qa.Testcases.DashboardPageTest')
-data.setCell(7, 3, 3838);
+data.setCell(7, 1, 'createnewrqmtstest')
+data.setCell(7, 2, 'com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest')
+data.setCell(7, 3, 1963);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'leavetest')
-data.setCell(8, 2, 'com.OrangeHrmDemo.qa.Testcases.DashboardPageTest')
-data.setCell(8, 3, 3250);
+data.setCell(8, 1, 'orangehrmlogotest')
+data.setCell(8, 2, 'com.OrangeHrmDemo.qa.Testcases.LoginPageTest')
+data.setCell(8, 3, 1216);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'orangehrmlogotest')
-data.setCell(9, 2, 'com.OrangeHrmDemo.qa.Testcases.LoginPageTest')
-data.setCell(9, 3, 2750);
+data.setCell(9, 1, 'selectcheckboxtest')
+data.setCell(9, 2, 'com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest')
+data.setCell(9, 3, 1013);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'dashboardlabeltest')
-data.setCell(10, 2, 'com.OrangeHrmDemo.qa.Testcases.DashboardPageTest')
-data.setCell(10, 3, 1366);
+data.setCell(10, 1, 'requirementslabletest')
+data.setCell(10, 2, 'com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest')
+data.setCell(10, 3, 605);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'requirementslabletest')
+data.setCell(11, 1, 'candidatelabeltest')
 data.setCell(11, 2, 'com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest')
-data.setCell(11, 3, 1289);
+data.setCell(11, 3, 574);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'userlabelTest')
+data.setCell(12, 1, 'dashboardlabeltest')
 data.setCell(12, 2, 'com.OrangeHrmDemo.qa.Testcases.DashboardPageTest')
-data.setCell(12, 3, 1075);
+data.setCell(12, 3, 398);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'candidatelabeltest')
-data.setCell(13, 2, 'com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest')
-data.setCell(13, 3, 1045);
+data.setCell(13, 1, 'loginpagetitlelogotest')
+data.setCell(13, 2, 'com.OrangeHrmDemo.qa.Testcases.LoginPageTest')
+data.setCell(13, 3, 383);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'loginpagetitletest')
 data.setCell(14, 2, 'com.OrangeHrmDemo.qa.Testcases.LoginPageTest')
-data.setCell(14, 3, 169);
+data.setCell(14, 3, 23);
 window.suiteTableData['OrangeHRMDemo_Application_Test_Automation_Test_Suite']= { tableData: data, tableDiv: 'times-div-OrangeHRMDemo_Application_Test_Automation_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 58 seconds</span>
+              <span class="suite-total-time">Total running time: 34 seconds</span>
               <div id="times-div-OrangeHRMDemo_Application_Test_Automation_Test_Suite">
               </div> <!-- times-div-OrangeHRMDemo_Application_Test_Automation_Test_Suite -->
             </div> <!-- times-div -->
@@ -515,191 +534,194 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginpagetitletest</span>
-                <span class="method-start">42169 ms</span>
+                <span class="method-start">45736 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">42339 ms</span>
+                <span class="method-start">45782 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">49825 ms</span>
+                <span class="method-start">47699 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">orangehrmlogotest</span>
-                <span class="method-start">65082 ms</span>
+                <span class="method-start">60032 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">67833 ms</span>
+                <span class="method-start">61249 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">72067 ms</span>
+                <span class="method-start">63326 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginpagetitlelogotest</span>
-                <span class="method-start">85050 ms</span>
+                <span class="method-start">72186 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">92933 ms</span>
+                <span class="method-start">72571 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">96022 ms</span>
+                <span class="method-start">74676 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">logintest</span>
-                <span class="method-start">116205 ms</span>
+                <span class="method-start">80967 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">121887 ms</span>
+                <span class="method-start">83905 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.OrangeHrmDemo.qa.Testcases.DashboardPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">124296 ms</span>
+                <span class="method-start">85832 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">userlabelTest</span>
-                <span class="method-start">164844 ms</span>
+                <span class="method-start">100912 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">165926 ms</span>
+                <span class="method-start">111357 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">168415 ms</span>
+                <span class="method-start">113332 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">dashboardlabeltest</span>
-                <span class="method-start">190143 ms</span>
+                <span class="method-start">124284 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">191510 ms</span>
+                <span class="method-start">124683 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">194097 ms</span>
+                <span class="method-start">125201 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">myinfotest</span>
-                <span class="method-start">214140 ms</span>
+                <span class="method-start">133208 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">217979 ms</span>
+                <span class="method-start">135348 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">221868 ms</span>
+                <span class="method-start">135653 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">leavetest</span>
-                <span class="method-start">244593 ms</span>
+                <span class="method-start">163777 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">247844 ms</span>
+                <span class="method-start">168169 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">250671 ms</span>
+                <span class="method-start">169682 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">requirmentstest</span>
-                <span class="method-start">271725 ms</span>
+                <span class="method-start">181333 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">275742 ms</span>
+                <span class="method-start">184754 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.OrangeHrmDemo.qa.Testcases.RequirementsPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">277675 ms</span>
+                <span class="method-start">185363 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">requirementslabletest</span>
-                <span class="method-start">314511 ms</span>
+                <span class="method-start">194929 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">315801 ms</span>
+                <span class="method-start">195535 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">331478 ms</span>
+                <span class="method-start">199548 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">candidatelabeltest</span>
-                <span class="method-start">358408 ms</span>
+                <span class="method-start">225568 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">359454 ms</span>
+                <span class="method-start">226143 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">370699 ms</span>
+                <span class="method-start">226455 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">selectcheckboxtest</span>
-                <span class="method-start">391349 ms</span>
+                <span class="method-start">242502 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">401809 ms</span>
+                <span class="method-start">243516 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">407150 ms</span>
+                <span class="method-start">245760 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">createnewrqmtstest(Bappa, raya, bappa@12.com)</span>
-                <span class="method-start">427939 ms</span>
+                <span class="method-start">256847 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">432979 ms</span>
+                <span class="method-start">259876 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">435901 ms</span>
+                <span class="method-start">260977 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">createnewrqmtstest(muthu, raya, muthu@12.com)</span>
-                <span class="method-start">466797 ms</span>
+                <span class="method-start">274164 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">472196 ms</span>
+                <span class="method-start">276127 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">487816 ms</span>
+                <span class="method-start">276635 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">createnewrqmtstest(Ram, shantha, ram@12.com)</span>
-                <span class="method-start">512788 ms</span>
+                <span class="method-start">295421 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">518361 ms</span>
+                <span class="method-start">297545 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
   </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
 </html>

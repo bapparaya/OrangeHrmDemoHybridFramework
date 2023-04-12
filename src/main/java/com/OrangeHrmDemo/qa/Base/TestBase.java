@@ -21,7 +21,7 @@ public TestBase() {
 	
 	try {
 		prop = new Properties();
-		FileInputStream ip = new FileInputStream("E:\\B1java\\OrangeHRMDemo\\src\\main\\java\\com\\OrangeHrmDemo\\qa\\Config\\config.properties");
+		FileInputStream ip = new FileInputStream("C:\\Users\\bapparayar\\git\\OrangeHrmDemoHybridFramework\\src\\main\\java\\com\\OrangeHrmDemo\\qa\\Config\\config.properties");
 		prop.load(ip);
 	} catch (FileNotFoundException e) {
 		// TODO Auto-generated catch block
@@ -37,7 +37,7 @@ public static void intialization(){
 	 String browsername = prop.getProperty("browser");
 	 
 	 if(browsername.equals("chrome")) {
-		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\BAPPARAYA R\\Downloads\\chromedriver_win32 (3)\\chromedriver.exe");
+		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\bapparayar\\Downloads\\chromedriver_win32 (4)\\chromedriver.exe" );
 		 driver = new ChromeDriver();
 	 }else if(browsername.equals("FF")) {
 		 System.setProperty("webdriver.gecko.driver", "");
